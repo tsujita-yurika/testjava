@@ -7,7 +7,7 @@ public class test {
 		for(int i=10; i >= 1; i--){
 //			iが偶数である場合
 			if(i % 2 == 0){
-//				2 4 6 8 10と繰り返し出力されるiにスペースを入れる
+//				10 8 6 4 2と繰り返し出力されるiにスペースを入れる
 //				printlnにすると出力が縦書きになる
 				System.out.println(i+" ");
 				}
