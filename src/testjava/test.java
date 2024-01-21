@@ -3,16 +3,15 @@ package testjava;
 public class test {
 
 	public static void main(String[] args) {
-		int cnt = 0;
-		int sum = 0;
-		for(int i = 1; i <= 10; i++) {
-			if(i % 2 == 0) {
-				cnt++;
-				sum += i;
-			}
+//	1～10を順番に取り出す
+		for(int i =1; i <= 10; i++) {
+//		iを出力
+			System.out.print(i);
+//			10にはカンマを付けない
+				if(i != 10) {
+//				それ以外はカンマを出力
+					System.out.print(",");
+			}	
 		}
-		    System.out.println("1～10までの偶数の数は" + cnt + "個");
-				System.out.println("1～10までの偶数の合計は" + sum + "個");
 	}
 }
-	
