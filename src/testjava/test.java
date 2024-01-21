@@ -17,18 +17,18 @@ public class test {
 ////		偶数の合計と偶数の個数を出力
 //		System.out.println("1～10までの偶数の個数は" + cnt);
 //		System.out.println("1～10までの偶数の合計は" + sum);
-		
+
 		int cnt = 0;
 		int sum = 0;
 			for(int i = 1; i <= 10; i++) {
 				if(i % 2 == 0) {
 					cnt++;
 					sum += i;
-					}
-				}		
-				System.out.println("1～10までの偶数の個数は" + cnt);
-				System.out.println("1～10までの偶数の合計は" + sum);		
+				}
 			}
+		System.out.println(cnt);
+		System.out.println(sum);
+		}
 		}
 
 	
