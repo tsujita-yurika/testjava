@@ -14,7 +14,7 @@ public class test {
 	    neko[4] = 15;
 
 //	  for 文を使って順に取り出して表示
-	    for (int i = 0 ; i < 3 ; i++){
+	    for (int i = 0 ; i < 5 ; i++){
 	      System.out.println(neko[i]);
 	  }
 	}	
