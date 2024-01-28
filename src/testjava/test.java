@@ -21,7 +21,7 @@ public class test {
 //		System.out.println(foo[4]);
 		
 //	上記を簡潔に
-		int[] foo = {1, 2, 3, 4, 5};
+		int[] foo = {2, 5, 1, 9, 5};
 
 		System.out.println(foo[0]);
 		System.out.println(foo[1]);
