@@ -4,7 +4,7 @@ public class test {
 
 	public static void main(String[] args) {
 //	配列arrを宣言し、初期化
-    int arr[] = new int[] {12, 34, 45, 21, 33, 4};
+    int arr[] = new int[] {5, 4, 3, 2, 1, 0};
 
 //  変数sumを宣言し、0で初期化
     int sum = 0;
