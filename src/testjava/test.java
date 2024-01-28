@@ -21,13 +21,13 @@ public class test {
 //		System.out.println(foo[4]);
 		
 		
-		String[] foo = {"a", "b", "c", "d", "e"};
+		String[] foo = {"こんにちは", "b", "c", "d", "e"};
 
 		System.out.println(foo[0]);
 		System.out.println(foo[1]);
 		System.out.println(foo[2]);
 		System.out.println(foo[3]);
 		System.out.println(foo[4]);
-		
+	
 	  }
 	}	
