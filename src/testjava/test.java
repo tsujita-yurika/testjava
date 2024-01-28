@@ -10,7 +10,7 @@ public class test {
 		int[] bar = new int[15]; // データを5個追加したい場合に用意する配列
 
 		// foo配列の最初の10個の値をbar配列にコピー
-//		foo, 0の0は、配列の最初の要素
+//		foo, 0とbar, 0の0は、配列の最初の要素を指定している
 		System.arraycopy(foo, 0, bar, 0, 10);
 
 		// 配列barを表示
