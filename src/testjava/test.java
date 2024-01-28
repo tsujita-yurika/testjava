@@ -20,8 +20,8 @@ public class test {
 //		System.out.println(foo[3]);
 //		System.out.println(foo[4]);
 		
-//	上記を簡潔に
-		int[] foo = {2, 5, 1, 9, 5};
+		
+		String[] foo = {"a", "b", "c", "d", "e"};
 
 		System.out.println(foo[0]);
 		System.out.println(foo[1]);
