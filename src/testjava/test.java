@@ -3,19 +3,19 @@ package testjava;
 public class test {
 
 	public static void main(String[] args) {
-//		配列には要素を追加する方法がないので、
-//		要素数を大きくした配列を用意し、Systemクラスのarraycopyメソッドを使って値をコピーする
-		
-		int[] foo = { 5, 3, 6, 8, 2, 5, 9, 2, 4, 1 }; // 元の配列
-		int[] bar = new int[15]; // データを5個追加したい場合に用意する配列
+//	配列arrを宣言し、初期化
+    int arr[] = new int[] {12, 34, 45, 21, 33, 4};
 
-		// foo配列の最初の10個の値をbar配列にコピー
-//		foo, 0とbar, 0の0は、配列の最初の要素を指定している
-		System.arraycopy(foo, 0, bar, 0, 10);
+//  変数sumを宣言し、0で初期化
+    int sum = 0;
 
-		// 配列barを表示
-		for (int i = 0; i < bar.length; i++) {
-			System.out.print(bar[i] + ", ");
-			}
+//  配列arrの要素を合計
+//  iはループ変数で、arr.lengthは配列arrの要素数
+//  i=0のとき、sumに12を加算～i=5のとき、sumに4を加算
+    for (int i = 0; i < arr.length; i++) {
+      sum += arr[i];
+    }
+//  合計値を出力
+    System.out.println("Array Sum = " + sum);
 	  }
-	}	
+	}
