@@ -13,6 +13,7 @@ public class test {
 		
 //	育成した塩基配列の記号を表示
 		for(int i = 0; i < seq.length; i++) {
+//		charは一文字を使うデータ型
 			char[] base = {'A', 'T', 'G', 'C'};
 			System.out.print(base[seq[i]] + " ");
 //		★17行目の内容
