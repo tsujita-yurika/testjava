@@ -3,19 +3,13 @@ package testjava;
 public class test {
 
 	public static void main(String[] args) {
-//	配列arrを宣言し、初期化
-    int arr[] = new int[] {5, 4, 3, 2, 1, 0};
-
-//  変数sumを宣言し、0で初期化
-    int sum = 0;
-
-//  配列arrの要素を合計
-//  iはループ変数で、arr.lengthは配列arrの要素数
-//  i=0のとき、sumに12を加算～i=5のとき、sumに4を加算
-    for (int i = 0; i < arr.length; i++) {
-      sum += arr[i];
-    }
-//  合計値を出力
-    System.out.println("Array Sum = " + sum);
+		int[] scores = {20, 30, 40, 50, 80};
+		int sum = 0;
+		for(int i = 0; i < scores.length; i++) {
+			sum += scores[i];
+			}
+		int avg = sum /scores.length;
+		System.out.println("合計点" + sum);
+		System.out.println("平均点" + avg);
 	  }
 	}
