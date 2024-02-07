@@ -3,24 +3,20 @@ package testjava;
 public class test {
 
 	public static void main(String[] args) {
-//	int 型のデータを格納する配列を格納する 2 次元配列を作成
-    int[][] num = new int[2][];
+//		配列の準備
+		int [] numbers = {3, 4, 9};
+		
+//		メッセージの表示
+		System.out.println("１桁の数字を入力してください");
+		
+//		キーボードからの数字入力
+		int input = new java.util.Scanner(System.in).nextInt();
+		
+//		配列を回しながら判定
+		for(int n : numbers) {
+			if(n == input) {
+				System.out.println("アタリ！");
 
-//  要素に対してそれぞれ値を格納
-    num[0] = new int[3];
-    num[0][0] = 78;
-    num[0][1] = 64;
-    num[0][2] = 59;
-
-    num[1] = new int[3];
-    num[1][0] = 58;
-    num[1][1] = 92;
-    num[1][2] = 82;
-    
-//  すべての要素の値を順番に参照して出力
-    for (int i = 0; i < 2; i++){
-      for (int j = 0; j < 3; j++){
-        System.out.println("num[" + i + "][" + j + "] = " + num[i][j]);
 			}
 		}
 	}
