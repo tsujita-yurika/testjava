@@ -8,6 +8,6 @@ public class test {
 	}
 	public static void add(int x, int y) {
 		int ans = x + y;
-		System.out.println(x + "+" + y "=" + ans);
+		System.out.println(x + " + " + y + " = " + ans);
 	}
 }
