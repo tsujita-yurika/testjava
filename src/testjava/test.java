@@ -7,7 +7,6 @@ public class test {
 		return ans;
 	}
 	public static void main(String[] args) {
-		int ans = add(100, 10);
-		System.out.println("100 + 10 = " + ans);
+		System.out.println(add(add(10, 20), add(30, 40)));
 	}
 }
