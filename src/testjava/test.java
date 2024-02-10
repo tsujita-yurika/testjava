@@ -3,19 +3,10 @@ package testjava;
 public class test {
 
 	public static void main(String args[]){
-	  int data[];
+		char[] c = {'こ', 'ん', 'に', 'ち', 'は'};
+		String msg = new String(c);
 
-	  data = test();
-	  System.out.println(data[0]);
-	  System.out.println(data[1]);
-	}
-
-	private static int[] test(){
-	  int data[] = new int[2];
-	  data[0] = 10;
-	  data[1] = 19;
-
-	  return data;
+		System.out.println(msg);  // こんにちは
 	}
 }
 	
