@@ -3,10 +3,10 @@ package testjava;
 public class test {
 
 	public static void main(String args[]){
-		char[] c = {'こ', 'ん', 'に', 'ち', 'は'};
-		String msg = new String(c);
+		String original = "Hello";
+		String msg = new String(original);
 
-		System.out.println(msg);  // こんにちは
+		System.out.println(msg);  // Hello
 	}
 }
 	
