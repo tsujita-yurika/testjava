@@ -4,15 +4,11 @@ public class test {
 
   public static void main(String[] args){
   	test robot = new test();
-  	robot.hello();
-  	robot.bye();
+  	robot.greeting("Hello");
+  	robot.greeting("Bye");
   }
   
-  void hello() {
-  	System.out.println("Hello");
-  }
-  
-  void bye() {
-  	System.out.println("Bye");
+  void greeting(String msg) {
+  	System.out.println(msg);
   }
 }
