@@ -2,13 +2,17 @@ package testjava;
 
 public class test {
 
-	public static void printArray(int[] array) { //引数に配列型を指定
-		for (int element : array) {
-			System.out.println(element);
-		}
-	}
-	public static void main(String[] args) {
-		int[] array = {1, 2, 3};
-		printArray(array); //配列を渡す
-	}
+  public static void main(String[] args){
+    test dentaku = new test();
+    dentaku.plus(10,5);
+    dentaku.minus(9,2);
+  }
+
+  void plus(int val1, int val2){
+    System.out.println(val1 + val2);
+  }
+
+  void minus(int val1, int val2){
+    System.out.println(val1 - val2);
+  }
 }
