@@ -2,13 +2,16 @@ package testjava;
 
 public class test {
 
-  public static void main(String[] args){
-  	test robot = new test();
-  	robot.greeting("Hello");
-  	robot.greeting("Bye");
+  public static void incArray(int[] array) {
+  	for (int i = 0; i < array.length; i++) {
+  		array[i]++;
+  	}
   }
-  
-  void greeting(String msg) {
-  	System.out.println(msg);
+  public static void main(String[] args) {
+  	int[] array = {1, 2, 3};
+  	incArray(array);
+  	for (int i : array) {
+  		System.out.println(i);
+  	}
   }
 }
