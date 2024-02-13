@@ -2,6 +2,8 @@ package testjava;
 
 public class test {
 
+//	int型配列を受け取り、
+//	配列内の要素全てに１を加えるメソッド
   public static void incArray(int[] array) {
   	for (int i = 0; i < array.length; i++) {
   		array[i]++;
