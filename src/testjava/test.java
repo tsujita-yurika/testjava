@@ -3,9 +3,14 @@ package testjava;
 public class test {
 
 	public static void main(String[] args) {
-		int x = 5;
-		int y = 10;
-		String ans = "x+yは" + x + y;
-		System.out.println(ans);
+		int[] num = new int[2];
+
+	// 要素に値を代入する
+	num[0] = 10;
+	num[1] = 8;
+
+	// 要素に格納された値を参照する
+	System.out.println(num[0]);  // 10
+	System.out.println(num[1]);  // 8
 	}
 }
