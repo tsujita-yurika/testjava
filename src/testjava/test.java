@@ -3,14 +3,10 @@ package testjava;
 public class test {
 
 	public static void main(String[] args) {
-		int[] num = new int[3];
+		String msg1 = "こんにちは";
+		String msg2 = msg1;
 
-		num[0] = 10;
-		num[1] = 8;
-		num[2] = 16;
-
-		for (int i = 0; i < 3; i++){
-		  System.out.println(num[i]);
+		System.out.println(msg1);  // "こんにちは"
+		System.out.println(msg2);  // "こんにちは"
 		}
 	}
-}
